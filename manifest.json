@@ -1,0 +1,21 @@
+{
+  "name": "চীনের বড় লোককথা",
+  "short_name": "লোককথা",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#880E4F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2919/2919586.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2919/2919586.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
