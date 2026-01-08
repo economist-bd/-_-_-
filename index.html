@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>চীনের প্রাচীন লোককথা</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color">="#880E4F"
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-top">🏮</div>
+        <h1>চীনের প্রাচীন লোককথা</h1>
+        <p>পাঁচটি বিখ্যাত কাহিনী</p>
+    </header>
+
+    <main class="container">
+        <!-- গল্পের কার্ডগুলো জাভাস্ক্রিপ্ট থেকে লোড হবে -->
+    </main>
+
+    <!-- গল্প পড়ার ফুলস্ক্রিন মোডাল -->
+    <div id="story-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="story-header">
+                <span id="modal-icon" class="modal-icon-img"></span>
+                <h2 id="modal-title"></h2>
+            </div>
+            <div class="story-body-container">
+                <p id="modal-story" class="long-story-text"></p>
+            </div>
+            <div class="moral-footer">
+                <strong>শিক্ষা:</strong> <span id="modal-moral"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
